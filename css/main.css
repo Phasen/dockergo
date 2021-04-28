@@ -1,0 +1,25 @@
+:root{
+    --primary: teal;
+    --secondary: lightgrey;
+    --primary-text-color: white;
+    --secondary-text-color:black;
+
+}
+.header{
+    display:block;
+    background:var(--primary);
+    color:var(--primary-text-color);
+    
+    height:10px; 
+    width:100%;
+}
+
+
+.footer{
+    display:block;
+    background:var(--primary);
+    color:var(--primary-text-color);
+    
+    height:10px; 
+    width:100%; 
+}
