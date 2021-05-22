@@ -1,10 +1,7 @@
-FROM golang:1.16.3
+FROM golang:alpine
+
 WORKDIR /go/src/app
 
+ADD src src
 
-COPY . .
-
-RUN go get -d -v ./...
-RUN go install -v ./...
-
-CMD ["billymulrine"]
+CMD ["go", "run", "src/main.go"]
