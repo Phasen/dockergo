@@ -1,7 +1,7 @@
 package main
 
 import (
-	"./handlers"
+	"github/Phasen/billymulrine/src/handlers"
 	"log"
 	"net/http"
 )
