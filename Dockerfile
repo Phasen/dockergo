@@ -1,7 +1,5 @@
 FROM golang:alpine
-
-WORKDIR /go/src/app
-
-ADD src src
-
-CMD ["go", "run", "src/main.go"]
+RUN apk --no-cache add ca-certificates
+WORKDIR /go/src/github/Phasen/billymulrine/
+COPY src .
+CMD ["go","run","./main.go"] 
