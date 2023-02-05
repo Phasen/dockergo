@@ -1,2 +1,2 @@
-# billymulrine
+# dockergo
 Learning Docker and Go
